@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([9],[
+webpackJsonppageComponent([4],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11812,12 +11812,17 @@ module.exports = function(module) {
 /* 97 */,
 /* 98 */,
 /* 99 */,
-/* 100 */
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RMAhr", function() { return RMAhr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GvUha", function() { return GvUha; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11829,15 +11834,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from etiam.soy.
+// This file was automatically generated from index.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace RMAhr.
+ * @fileoverview Templates in namespace GvUha.
  * @public
  */
 
-goog.module('RMAhr.incrementaldom');
+goog.module('GvUha.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11871,10 +11876,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param246 = function() {
+  var param330 = function() {
     ie_open('h6');
-      var dyn22 = opt_data.page.description;
-      if (typeof dyn22 == 'function') dyn22(); else if (dyn22 != null) itext(dyn22);
+      var dyn27 = opt_data.page.description;
+      if (typeof dyn27 == 'function') dyn27(); else if (dyn27 != null) itext(dyn27);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -11882,12 +11887,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         itext('Lorem ipsum dolor sit amet');
       ie_close('h2');
       ie_open('p');
-        itext('Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque varius mattis mollis. Praesent rutrum tempor libero sit amet blandit. Integer ante nisl, rutrum ut volutpat ut, rutrum id tortor. Duis placerat ut ipsum id aliquam. Nunc venenatis sem ac urna viverra, eu euismod sapien porttitor.');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
-      $templateAlias2({code: 'body {\n    overflow: hidden;\n}', mode: 'css'}, null, opt_ijData);
       ie_open('p');
-        itext('Nulla a suscipit nibh. Duis tincidunt elit tellus, ut volutpat lectus pharetra at. Nulla quis nisi ante. Maecenas vulputate convallis lorem. Vestibulum at ex id sapien faucibus vehicula. Sed porta dui in velit semper blandit. Ut in commodo magna. Morbi luctus enim et lectus luctus ullamcorper. Proin tellus erat, convallis vitae metus vitae, lacinia consectetur turpis.');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
+      $templateAlias2({code: 'console.info(\'Hola Mundo\');', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
@@ -11940,11 +11945,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param246}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param330}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'RMAhr.render';
+  $render.soyTemplateName = 'GvUha.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11954,19 +11959,14 @@ return exports;
 
 });
 
-class RMAhr extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(RMAhr, templates);
+class GvUha extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(GvUha, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
 /* 106 */,
 /* 107 */,
 /* 108 */,
@@ -12009,7 +12009,10 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(RMAhr, templates);
 /* 145 */,
 /* 146 */,
 /* 147 */,
-/* 148 */
+/* 148 */,
+/* 149 */,
+/* 150 */,
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12039,9 +12042,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _etiamSoy = __webpack_require__(100);
+var _indexSoy = __webpack_require__(105);
 
-var _etiamSoy2 = _interopRequireDefault(_etiamSoy);
+var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12051,23 +12054,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var RMAhr = function (_Component) {
-  _inherits(RMAhr, _Component);
+var GvUha = function (_Component) {
+  _inherits(GvUha, _Component);
 
-  function RMAhr() {
-    _classCallCheck(this, RMAhr);
+  function GvUha() {
+    _classCallCheck(this, GvUha);
 
-    return _possibleConstructorReturn(this, (RMAhr.__proto__ || Object.getPrototypeOf(RMAhr)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (GvUha.__proto__ || Object.getPrototypeOf(GvUha)).apply(this, arguments));
   }
 
-  return RMAhr;
+  return GvUha;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(RMAhr, _etiamSoy2.default);
+_metalSoy2.default.register(GvUha, _indexSoy2.default);
 
-exports.default = RMAhr;
+exports.default = GvUha;
 
 /***/ })
-],[148]);
+],[151]);
