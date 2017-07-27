@@ -2395,7 +2395,6 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
             'class', 'title');
           var dyn7 = opt_data.page.title;
           if (typeof dyn7 == 'function') dyn7(); else if (dyn7 != null) itext(dyn7);
-          itext(' Guide');
         ie_close('h1');
       ie_close('div');
     ie_close('header');
@@ -2659,8 +2658,8 @@ function $logo(opt_data, opt_ignored, opt_ijData) {
           'class', 'topbar-logo-icon icon-16-hammer');
       ie_open('span', null, null,
           'class', 'topbar-logo-text');
-        var dyn13 = opt_data.site.title;
-        if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+        var dyn11 = opt_data.site.title;
+        if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
       ie_close('span');
     ie_close('a');
   ie_close('div');
@@ -11821,7 +11820,8 @@ module.exports = function(module) {
 /* 106 */,
 /* 107 */,
 /* 108 */,
-/* 109 */
+/* 109 */,
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11923,7 +11923,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(updatesIndex, templat
 
 
 /***/ }),
-/* 110 */,
 /* 111 */,
 /* 112 */,
 /* 113 */,
@@ -11968,7 +11967,9 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(updatesIndex, templat
 /* 152 */,
 /* 153 */,
 /* 154 */,
-/* 155 */
+/* 155 */,
+/* 156 */,
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11998,7 +11999,7 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _indexSoy = __webpack_require__(109);
+var _indexSoy = __webpack_require__(110);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -12029,4 +12030,4 @@ _metalSoy2.default.register(updatesIndex, _indexSoy2.default);
 exports.default = updatesIndex;
 
 /***/ })
-],[155]);
+],[157]);

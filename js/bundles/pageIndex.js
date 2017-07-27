@@ -2395,7 +2395,6 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
             'class', 'title');
           var dyn7 = opt_data.page.title;
           if (typeof dyn7 == 'function') dyn7(); else if (dyn7 != null) itext(dyn7);
-          itext(' Guide');
         ie_close('h1');
       ie_close('div');
     ie_close('header');
@@ -2659,8 +2658,8 @@ function $logo(opt_data, opt_ignored, opt_ijData) {
           'class', 'topbar-logo-icon icon-16-hammer');
       ie_open('span', null, null,
           'class', 'topbar-logo-text');
-        var dyn13 = opt_data.site.title;
-        if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+        var dyn11 = opt_data.site.title;
+        if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
       ie_close('span');
     ie_close('a');
   ie_close('div');
@@ -11820,7 +11819,8 @@ module.exports = function(module) {
 /* 105 */,
 /* 106 */,
 /* 107 */,
-/* 108 */
+/* 108 */,
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11877,7 +11877,7 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param75 = function() {
+  var param122 = function() {
     $header(opt_data, null, opt_ijData);
     $why(null, null, opt_ijData);
     $features(null, null, opt_ijData);
@@ -11885,7 +11885,7 @@ function $render(opt_data, opt_ignored, opt_ijData) {
     $highlights(null, null, opt_ijData);
     $footer(null, null, opt_ijData);
   };
-  $templateAlias1(soy.$$assignDefaults({content: param75}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param122}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11907,13 +11907,13 @@ function $header(opt_data, opt_ignored, opt_ijData) {
         'class', 'container');
       ie_open('h1', null, null,
           'class', 'header-title');
-        var dyn10 = opt_data.site.title;
-        if (typeof dyn10 == 'function') dyn10(); else if (dyn10 != null) itext(dyn10);
+        var dyn12 = opt_data.site.title;
+        if (typeof dyn12 == 'function') dyn12(); else if (dyn12 != null) itext(dyn12);
       ie_close('h1');
       ie_open('h2', null, null,
           'class', 'header-subtitle');
-        var dyn11 = opt_data.site.index.description;
-        if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
+        var dyn13 = opt_data.site.index.description;
+        if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
       ie_close('h2');
       ie_open('div', null, null,
           'class', 'header-cta');
@@ -12232,7 +12232,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageIndex, templates)
 
 
 /***/ }),
-/* 109 */,
 /* 110 */,
 /* 111 */,
 /* 112 */,
@@ -12277,7 +12276,9 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageIndex, templates)
 /* 151 */,
 /* 152 */,
 /* 153 */,
-/* 154 */
+/* 154 */,
+/* 155 */,
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12307,7 +12308,7 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _indexSoy = __webpack_require__(108);
+var _indexSoy = __webpack_require__(109);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -12338,4 +12339,4 @@ _metalSoy2.default.register(pageIndex, _indexSoy2.default);
 exports.default = pageIndex;
 
 /***/ })
-],[154]);
+],[156]);

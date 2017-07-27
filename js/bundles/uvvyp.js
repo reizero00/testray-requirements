@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([4],[
+webpackJsonppageComponent([11],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2395,7 +2395,6 @@ function $guide(opt_data, opt_ignored, opt_ijData) {
             'class', 'title');
           var dyn7 = opt_data.page.title;
           if (typeof dyn7 == 'function') dyn7(); else if (dyn7 != null) itext(dyn7);
-          itext(' Guide');
         ie_close('h1');
       ie_close('div');
     ie_close('header');
@@ -2659,8 +2658,8 @@ function $logo(opt_data, opt_ignored, opt_ijData) {
           'class', 'topbar-logo-icon icon-16-hammer');
       ie_open('span', null, null,
           'class', 'topbar-logo-text');
-        var dyn13 = opt_data.site.title;
-        if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+        var dyn11 = opt_data.site.title;
+        if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
       ie_close('span');
     ie_close('a');
   ie_close('div');
@@ -11811,18 +11810,12 @@ module.exports = function(module) {
 /* 96 */,
 /* 97 */,
 /* 98 */,
-/* 99 */,
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */
+/* 99 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GvUha", function() { return GvUha; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "uvvyp", function() { return uvvyp; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11838,11 +11831,11 @@ goog.loadModule(function(exports) {
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace GvUha.
+ * @fileoverview Templates in namespace uvvyp.
  * @public
  */
 
-goog.module('GvUha.incrementaldom');
+goog.module('uvvyp.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11876,10 +11869,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param330 = function() {
+  var param230 = function() {
     ie_open('h6');
-      var dyn27 = opt_data.page.description;
-      if (typeof dyn27 == 'function') dyn27(); else if (dyn27 != null) itext(dyn27);
+      var dyn21 = opt_data.page.description;
+      if (typeof dyn21 == 'function') dyn21(); else if (dyn21 != null) itext(dyn21);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -11945,11 +11938,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param330}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param230}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'GvUha.render';
+  $render.soyTemplateName = 'uvvyp.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11959,14 +11952,20 @@ return exports;
 
 });
 
-class GvUha extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(GvUha, templates);
+class uvvyp extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(uvvyp, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
 /* 106 */,
 /* 107 */,
 /* 108 */,
@@ -12007,12 +12006,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(GvUha, templates);
 /* 143 */,
 /* 144 */,
 /* 145 */,
-/* 146 */,
-/* 147 */,
-/* 148 */,
-/* 149 */,
-/* 150 */,
-/* 151 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12042,7 +12036,7 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _indexSoy = __webpack_require__(105);
+var _indexSoy = __webpack_require__(99);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -12054,23 +12048,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var GvUha = function (_Component) {
-  _inherits(GvUha, _Component);
+var uvvyp = function (_Component) {
+  _inherits(uvvyp, _Component);
 
-  function GvUha() {
-    _classCallCheck(this, GvUha);
+  function uvvyp() {
+    _classCallCheck(this, uvvyp);
 
-    return _possibleConstructorReturn(this, (GvUha.__proto__ || Object.getPrototypeOf(GvUha)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (uvvyp.__proto__ || Object.getPrototypeOf(uvvyp)).apply(this, arguments));
   }
 
-  return GvUha;
+  return uvvyp;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(GvUha, _indexSoy2.default);
+_metalSoy2.default.register(uvvyp, _indexSoy2.default);
 
-exports.default = GvUha;
+exports.default = uvvyp;
 
 /***/ })
-],[151]);
+],[146]);
