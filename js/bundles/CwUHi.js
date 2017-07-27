@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([3],[
+webpackJsonppageComponent([8],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2658,8 +2658,8 @@ function $logo(opt_data, opt_ignored, opt_ijData) {
           'class', 'topbar-logo-icon icon-16-hammer');
       ie_open('span', null, null,
           'class', 'topbar-logo-text');
-        var dyn11 = opt_data.site.title;
-        if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
+        var dyn13 = opt_data.site.title;
+        if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
       ie_close('span');
     ie_close('a');
   ie_close('div');
@@ -11813,17 +11813,12 @@ module.exports = function(module) {
 /* 99 */,
 /* 100 */,
 /* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */
+/* 102 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "eBhhE", function() { return eBhhE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CwUHi", function() { return CwUHi; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11835,15 +11830,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from testray-administrator.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace eBhhE.
+ * @fileoverview Templates in namespace CwUHi.
  * @public
  */
 
-goog.module('eBhhE.incrementaldom');
+goog.module('CwUHi.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11864,8 +11859,6 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
-var $templateAlias2 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('ElectricCode.incrementaldom', 'render');
-
 var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('guide.incrementaldom', 'render');
 
 
@@ -11877,28 +11870,18 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param313 = function() {
-    ie_open('h6');
-      var dyn24 = opt_data.page.description;
-      if (typeof dyn24 == 'function') dyn24(); else if (dyn24 != null) itext(dyn24);
-    ie_close('h6');
+  var param266 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
-        itext('Lorem ipsum dolor sit amet');
+        itext('Description');
       ie_close('h2');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      $templateAlias2({code: 'console.info(\'Hola Mundo\');', mode: 'javascript'}, null, opt_ijData);
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        itext('A ');
+        ie_open('em');
+          itext('Testray Administrators');
+        ie_close('em');
+        itext(' has access to all of Testray. These users are normally elevated to be able to administer other users or system configurations.');
       ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
@@ -11910,11 +11893,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param313}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param266}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'eBhhE.render';
+  $render.soyTemplateName = 'CwUHi.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11924,14 +11907,19 @@ return exports;
 
 });
 
-class eBhhE extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(eBhhE, templates);
+class CwUHi extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(CwUHi, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
 /* 108 */,
 /* 109 */,
 /* 110 */,
@@ -11973,12 +11961,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(eBhhE, templates);
 /* 146 */,
 /* 147 */,
 /* 148 */,
-/* 149 */,
-/* 150 */,
-/* 151 */,
-/* 152 */,
-/* 153 */,
-/* 154 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12008,9 +11991,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _indexSoy = __webpack_require__(107);
+var _testrayAdministratorSoy = __webpack_require__(102);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _testrayAdministratorSoy2 = _interopRequireDefault(_testrayAdministratorSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12020,23 +12003,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var eBhhE = function (_Component) {
-  _inherits(eBhhE, _Component);
+var CwUHi = function (_Component) {
+  _inherits(CwUHi, _Component);
 
-  function eBhhE() {
-    _classCallCheck(this, eBhhE);
+  function CwUHi() {
+    _classCallCheck(this, CwUHi);
 
-    return _possibleConstructorReturn(this, (eBhhE.__proto__ || Object.getPrototypeOf(eBhhE)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (CwUHi.__proto__ || Object.getPrototypeOf(CwUHi)).apply(this, arguments));
   }
 
-  return eBhhE;
+  return CwUHi;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(eBhhE, _indexSoy2.default);
+_metalSoy2.default.register(CwUHi, _testrayAdministratorSoy2.default);
 
-exports.default = eBhhE;
+exports.default = CwUHi;
 
 /***/ })
-],[154]);
+],[149]);

@@ -2658,8 +2658,8 @@ function $logo(opt_data, opt_ignored, opt_ijData) {
           'class', 'topbar-logo-icon icon-16-hammer');
       ie_open('span', null, null,
           'class', 'topbar-logo-text');
-        var dyn11 = opt_data.site.title;
-        if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
+        var dyn13 = opt_data.site.title;
+        if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
       ie_close('span');
     ie_close('a');
   ie_close('div');
@@ -11954,12 +11954,8 @@ function $topics(opt_data, opt_ignored, opt_ijData) {
                 'class', 'docs-home-middle');
               ie_open('h2', null, null,
                   'class', 'docs-home-middle-subtitle');
-                itext('Choose a Guide');
+                itext('Choose a Section');
               ie_close('h2');
-              ie_open('p', null, null,
-                  'class', 'docs-home-middle-description');
-                itext('Each one provide step by step coverage for every core feature.');
-              ie_close('p');
             ie_close('section');
           ie_close('div');
         ie_close('div');
