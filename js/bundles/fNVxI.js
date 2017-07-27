@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([4],[
+webpackJsonppageComponent([3],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11817,12 +11817,13 @@ module.exports = function(module) {
 /* 103 */,
 /* 104 */,
 /* 105 */,
-/* 106 */
+/* 106 */,
+/* 107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HKwDV", function() { return HKwDV; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fNVxI", function() { return fNVxI; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11834,15 +11835,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from 1_0.soy.
+// This file was automatically generated from index.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace HKwDV.
+ * @fileoverview Templates in namespace fNVxI.
  * @public
  */
 
-goog.module('HKwDV.incrementaldom');
+goog.module('fNVxI.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11863,6 +11864,8 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
+var $templateAlias2 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('ElectricCode.incrementaldom', 'render');
+
 var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('guide.incrementaldom', 'render');
 
 
@@ -11874,25 +11877,28 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param302 = function() {
+  var param304 = function() {
     ie_open('h6');
-      var dyn23 = opt_data.page.description;
-      if (typeof dyn23 == 'function') dyn23(); else if (dyn23 != null) itext(dyn23);
+      var dyn24 = opt_data.page.description;
+      if (typeof dyn24 == 'function') dyn24(); else if (dyn24 != null) itext(dyn24);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
-        itext('Overview');
+        itext('Lorem ipsum dolor sit amet');
       ie_close('h2');
       ie_open('p');
-        itext('A ');
-        ie_open('em');
-          itext('Testray User');
-        ie_close('em');
-        itext(' is the lowest level access user that has view only permissions. Their primary function is to be able to go through results for root cause analysis. They do not have permissions to initiate any workflows on results, create tasks, or use any of the tools.');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
       ie_open('p');
-        itext('Technical Support Engineers, Customer Support, and Training are example departments that would categorize as a review only group. They\'ll normally want to go in to look at upstream master or ee-7.0.x to look at the latest results or to review a pull request.');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      $templateAlias2({code: 'console.info(\'Hola Mundo\');', mode: 'javascript'}, null, opt_ijData);
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+      ie_close('p');
+      ie_open('p');
+        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
@@ -11904,11 +11910,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param302}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param304}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'HKwDV.render';
+  $render.soyTemplateName = 'fNVxI.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11918,15 +11924,14 @@ return exports;
 
 });
 
-class HKwDV extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(HKwDV, templates);
+class fNVxI extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(fNVxI, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 107 */,
 /* 108 */,
 /* 109 */,
 /* 110 */,
@@ -11973,8 +11978,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(HKwDV, templates);
 /* 151 */,
 /* 152 */,
 /* 153 */,
-/* 154 */,
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12004,9 +12008,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _0Soy = __webpack_require__(106);
+var _indexSoy = __webpack_require__(107);
 
-var _0Soy2 = _interopRequireDefault(_0Soy);
+var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12016,23 +12020,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var HKwDV = function (_Component) {
-  _inherits(HKwDV, _Component);
+var fNVxI = function (_Component) {
+  _inherits(fNVxI, _Component);
 
-  function HKwDV() {
-    _classCallCheck(this, HKwDV);
+  function fNVxI() {
+    _classCallCheck(this, fNVxI);
 
-    return _possibleConstructorReturn(this, (HKwDV.__proto__ || Object.getPrototypeOf(HKwDV)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (fNVxI.__proto__ || Object.getPrototypeOf(fNVxI)).apply(this, arguments));
   }
 
-  return HKwDV;
+  return fNVxI;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(HKwDV, _0Soy2.default);
+_metalSoy2.default.register(fNVxI, _indexSoy2.default);
 
-exports.default = HKwDV;
+exports.default = fNVxI;
 
 /***/ })
-],[155]);
+],[154]);

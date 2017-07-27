@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([8],[
+webpackJsonppageComponent([7],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11813,12 +11813,13 @@ module.exports = function(module) {
 /* 99 */,
 /* 100 */,
 /* 101 */,
-/* 102 */
+/* 102 */,
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CwUHi", function() { return CwUHi; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EQkuj", function() { return EQkuj; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11830,15 +11831,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from testray-administrator.soy.
+// This file was automatically generated from testray-analyst.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace CwUHi.
+ * @fileoverview Templates in namespace EQkuj.
  * @public
  */
 
-goog.module('CwUHi.incrementaldom');
+goog.module('EQkuj.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11879,9 +11880,9 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_open('p');
         itext('A ');
         ie_open('em');
-          itext('Testray Administrators');
+          itext('Testray Analyst');
         ie_close('em');
-        itext(' has access to all of Testray. These users are normally elevated to be able to administer other users or system configurations.');
+        itext(' will have access to all analysis tools and will be primarily responsible for analyzing results or completing tasks. A Testray Analyst may use compare to give their sign offs on a build for a release.');
       ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
@@ -11897,7 +11898,7 @@ function $render(opt_data, opt_ignored, opt_ijData) {
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'CwUHi.render';
+  $render.soyTemplateName = 'EQkuj.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11907,15 +11908,14 @@ return exports;
 
 });
 
-class CwUHi extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(CwUHi, templates);
+class EQkuj extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(EQkuj, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 103 */,
 /* 104 */,
 /* 105 */,
 /* 106 */,
@@ -11991,9 +11991,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _testrayAdministratorSoy = __webpack_require__(102);
+var _testrayAnalystSoy = __webpack_require__(103);
 
-var _testrayAdministratorSoy2 = _interopRequireDefault(_testrayAdministratorSoy);
+var _testrayAnalystSoy2 = _interopRequireDefault(_testrayAnalystSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12003,23 +12003,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var CwUHi = function (_Component) {
-  _inherits(CwUHi, _Component);
+var EQkuj = function (_Component) {
+  _inherits(EQkuj, _Component);
 
-  function CwUHi() {
-    _classCallCheck(this, CwUHi);
+  function EQkuj() {
+    _classCallCheck(this, EQkuj);
 
-    return _possibleConstructorReturn(this, (CwUHi.__proto__ || Object.getPrototypeOf(CwUHi)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (EQkuj.__proto__ || Object.getPrototypeOf(EQkuj)).apply(this, arguments));
   }
 
-  return CwUHi;
+  return EQkuj;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(CwUHi, _testrayAdministratorSoy2.default);
+_metalSoy2.default.register(EQkuj, _testrayAnalystSoy2.default);
 
-exports.default = CwUHi;
+exports.default = EQkuj;
 
 /***/ })
 ],[149]);
