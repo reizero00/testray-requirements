@@ -9,8 +9,7 @@ weight: 2
 
 ## Description
 
-A *Testray User* is the lowest level access user that has view only permissions. Their primary function is to be able to go through results for root cause analysis. They do not have permissions to initiate any workflows on results, create tasks, or use any of the tools.
+A *Testray Analyst* will have access to all analysis tools and will be primarily responsible for analyzing results or completing tasks. A Testray Analyst may use compare to give their sign offs on a build for a release.
 
-Technical Support Engineers, Customer Support, and Training are example departments that would categorize as a review only group. They'll normally want to go in to look at upstream master or ee-7.0.x to look at the latest results or to review a pull request. 
 
 </article>
