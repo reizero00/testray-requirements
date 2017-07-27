@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([5],[
+webpackJsonppageComponent([7],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11814,14 +11814,12 @@ module.exports = function(module) {
 /* 100 */,
 /* 101 */,
 /* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "imboQ", function() { return imboQ; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EyPUu", function() { return EyPUu; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11833,15 +11831,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from testray-user.soy.
+// This file was automatically generated from testray-analyst.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace imboQ.
+ * @fileoverview Templates in namespace EyPUu.
  * @public
  */
 
-goog.module('imboQ.incrementaldom');
+goog.module('EyPUu.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11873,7 +11871,7 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param284 = function() {
+  var param266 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
@@ -11882,12 +11880,9 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_open('p');
         itext('A ');
         ie_open('em');
-          itext('Testray User');
+          itext('Testray Analyst');
         ie_close('em');
-        itext(' is the lowest level access user that has view only permissions. Their primary function is to be able to go through results for root cause analysis. They do not have permissions to initiate any workflows on results, create tasks, or use any of the tools.');
-      ie_close('p');
-      ie_open('p');
-        itext('Technical Support Engineers, Customer Support, and Training are example departments that would categorize as a review only group. They\'ll normally want to go in to look at upstream master or ee-7.0.x to look at the latest results or to review a pull request.');
+        itext(' will have access to all analysis tools and will be primarily responsible for analyzing results or completing tasks. A Testray Analyst may use compare to give their sign offs on a build for a release.');
       ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
@@ -11899,11 +11894,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param284}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param266}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'imboQ.render';
+  $render.soyTemplateName = 'EyPUu.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11913,14 +11908,16 @@ return exports;
 
 });
 
-class imboQ extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(imboQ, templates);
+class EyPUu extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(EyPUu, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 104 */,
+/* 105 */,
 /* 106 */,
 /* 107 */,
 /* 108 */,
@@ -11964,9 +11961,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(imboQ, templates);
 /* 146 */,
 /* 147 */,
 /* 148 */,
-/* 149 */,
-/* 150 */,
-/* 151 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11996,9 +11991,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _testrayUserSoy = __webpack_require__(105);
+var _testrayAnalystSoy = __webpack_require__(103);
 
-var _testrayUserSoy2 = _interopRequireDefault(_testrayUserSoy);
+var _testrayAnalystSoy2 = _interopRequireDefault(_testrayAnalystSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12008,23 +12003,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var imboQ = function (_Component) {
-  _inherits(imboQ, _Component);
+var EyPUu = function (_Component) {
+  _inherits(EyPUu, _Component);
 
-  function imboQ() {
-    _classCallCheck(this, imboQ);
+  function EyPUu() {
+    _classCallCheck(this, EyPUu);
 
-    return _possibleConstructorReturn(this, (imboQ.__proto__ || Object.getPrototypeOf(imboQ)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (EyPUu.__proto__ || Object.getPrototypeOf(EyPUu)).apply(this, arguments));
   }
 
-  return imboQ;
+  return EyPUu;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(imboQ, _testrayUserSoy2.default);
+_metalSoy2.default.register(EyPUu, _testrayAnalystSoy2.default);
 
-exports.default = imboQ;
+exports.default = EyPUu;
 
 /***/ })
-],[151]);
+],[149]);

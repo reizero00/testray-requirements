@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([9],[
+webpackJsonppageComponent([5],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11812,12 +11812,16 @@ module.exports = function(module) {
 /* 98 */,
 /* 99 */,
 /* 100 */,
-/* 101 */
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "uHErL", function() { return uHErL; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "lQdyv", function() { return lQdyv; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11829,15 +11833,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from testray-user.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace uHErL.
+ * @fileoverview Templates in namespace lQdyv.
  * @public
  */
 
-goog.module('uHErL.incrementaldom');
+goog.module('lQdyv.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11869,793 +11873,22 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param246 = function() {
-    ie_open('h6');
-      var dyn22 = opt_data.page.description;
-      if (typeof dyn22 == 'function') dyn22(); else if (dyn22 != null) itext(dyn22);
-    ie_close('h6');
+  var param284 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
-        itext('Introduction');
+        itext('Description');
       ie_close('h2');
       ie_open('p');
-        itext('The primary users that interact with Testray typically fall into the ');
-        ie_open('a', null, null,
-            'href', '/docs/personas/testray-user.html');
+        itext('A ');
+        ie_open('em');
           itext('Testray User');
-        ie_close('a');
-        itext(', ');
-        ie_open('a', null, null,
-            'href', '/docs/personas/testray-analyst.html');
-          itext('Testray Analyst');
-        ie_close('a');
-        itext(', ');
-        ie_open('a', null, null,
-            'href', '/docs/personas/testray-lead.html');
-          itext('Testray Lead');
-        ie_close('a');
-        itext(', ');
-        ie_open('a', null, null,
-            'href', '/docs/personas/testray-administrator.html');
-          itext('Testray Administrator');
-        ie_close('a');
-        itext(' roles. These roles increase in privileges from User which has view only permissions to Administrator which has full range of permissions.');
+        ie_close('em');
+        itext(' is the lowest level access user that has view only permissions. Their primary function is to be able to go through results for root cause analysis. They do not have permissions to initiate any workflows on results, create tasks, or use any of the tools.');
       ie_close('p');
-      ie_open('h4');
-        itext('Index of Roles');
-      ie_close('h4');
-      ie_open('ol');
-        ie_open('li');
-          ie_open('a', null, null,
-              'href', '/docs/personas/testray-administrator.html');
-            itext('Testray Administrator');
-          ie_close('a');
-        ie_close('li');
-        ie_open('li');
-          ie_open('a', null, null,
-              'href', '/docs/personas/testray-lead.html');
-            itext('Testray Lead');
-          ie_close('a');
-        ie_close('li');
-        ie_open('li');
-          ie_open('a', null, null,
-              'href', '/docs/personas/testray-analyst.html');
-            itext('Testray Analyst');
-          ie_close('a');
-        ie_close('li');
-        ie_open('li');
-          ie_open('a', null, null,
-              'href', '/docs/personas/testray-user.html');
-            itext('Testray User');
-          ie_close('a');
-        ie_close('li');
-      ie_close('ol');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '2');
-      ie_open('h2');
-        itext('Project Permissions');
-      ie_close('h2');
-      ie_open('hr');
-      ie_close('hr');
-      ie_open('table');
-        ie_open('thead');
-          ie_open('tr');
-            ie_open('th');
-              itext('Action');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('User');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Analyst');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Lead');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Administrator');
-            ie_close('th');
-          ie_close('tr');
-        ie_close('thead');
-        ie_open('tbody');
-          ie_open('tr');
-            ie_open('td');
-              itext('Create');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Edit');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Delete');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('View');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-        ie_close('tbody');
-      ie_close('table');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '3');
-      ie_open('h2');
-        itext('Case Type Permissions');
-      ie_close('h2');
-      ie_open('hr');
-      ie_close('hr');
-      ie_open('table');
-        ie_open('thead');
-          ie_open('tr');
-            ie_open('th');
-              itext('Action');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('User');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Analyst');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Lead');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Administrator');
-            ie_close('th');
-          ie_close('tr');
-        ie_close('thead');
-        ie_open('tbody');
-          ie_open('tr');
-            ie_open('td');
-              itext('Create');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Edit');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Delete');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('View');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-        ie_close('tbody');
-      ie_close('table');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '4');
-      ie_open('h2');
-        itext('Factor Category Permissions');
-      ie_close('h2');
-      ie_open('hr');
-      ie_close('hr');
-      ie_open('table');
-        ie_open('thead');
-          ie_open('tr');
-            ie_open('th');
-              itext('Action');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('User');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Analyst');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Lead');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Administrator');
-            ie_close('th');
-          ie_close('tr');
-        ie_close('thead');
-        ie_open('tbody');
-          ie_open('tr');
-            ie_open('td');
-              itext('Create');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Edit');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Delete');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('View');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-        ie_close('tbody');
-      ie_close('table');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '5');
-      ie_open('h2');
-        itext('Factor Option Permissions');
-      ie_close('h2');
-      ie_open('hr');
-      ie_close('hr');
-      ie_open('table');
-        ie_open('thead');
-          ie_open('tr');
-            ie_open('th');
-              itext('Action');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('User');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Analyst');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Lead');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Administrator');
-            ie_close('th');
-          ie_close('tr');
-        ie_close('thead');
-        ie_open('tbody');
-          ie_open('tr');
-            ie_open('td');
-              itext('Create');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Edit');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Delete');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('View');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-        ie_close('tbody');
-      ie_close('table');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '6');
-      ie_open('h2');
-        itext('Product Version Permissions');
-      ie_close('h2');
-      ie_open('hr');
-      ie_close('hr');
-      ie_open('table');
-        ie_open('thead');
-          ie_open('tr');
-            ie_open('th');
-              itext('Action');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('User');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Analyst');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Lead');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Administrator');
-            ie_close('th');
-          ie_close('tr');
-        ie_close('thead');
-        ie_open('tbody');
-          ie_open('tr');
-            ie_open('td');
-              itext('Create');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Edit');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Delete');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('View');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-        ie_close('tbody');
-      ie_close('table');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '7');
-      ie_open('h2');
-        itext('Team Permissions');
-      ie_close('h2');
-      ie_open('hr');
-      ie_close('hr');
-      ie_open('table');
-        ie_open('thead');
-          ie_open('tr');
-            ie_open('th');
-              itext('Action');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('User');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Analyst');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Lead');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Administrator');
-            ie_close('th');
-          ie_close('tr');
-        ie_close('thead');
-        ie_open('tbody');
-          ie_open('tr');
-            ie_open('td');
-              itext('Create');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Edit');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Delete');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('View');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-        ie_close('tbody');
-      ie_close('table');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '8');
-      ie_open('h2');
-        itext('Component Permissions');
-      ie_close('h2');
-      ie_open('hr');
-      ie_close('hr');
-      ie_open('table');
-        ie_open('thead');
-          ie_open('tr');
-            ie_open('th');
-              itext('Action');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('User');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Analyst');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Lead');
-            ie_close('th');
-            ie_open('th', null, null,
-                'style', 'text-align:center');
-              itext('Administrator');
-            ie_close('th');
-          ie_close('tr');
-        ie_close('thead');
-        ie_open('tbody');
-          ie_open('tr');
-            ie_open('td');
-              itext('Create');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Edit');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('Delete');
-            ie_close('td');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_void('td', null, null,
-                'style', 'text-align:center');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('View');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
-                'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-          ie_close('tr');
-        ie_close('tbody');
-      ie_close('table');
+      ie_open('p');
+        itext('Technical Support Engineers, Customer Support, and Training are example departments that would categorize as a review only group. They\'ll normally want to go in to look at upstream master or ee-7.0.x to look at the latest results or to review a pull request.');
+      ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
         'type', 'hidden',
@@ -12666,11 +11899,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param246}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param284}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'uHErL.render';
+  $render.soyTemplateName = 'lQdyv.render';
 }
 
 exports.render.params = ["page","site"];
@@ -12680,18 +11913,14 @@ return exports;
 
 });
 
-class uHErL extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(uHErL, templates);
+class lQdyv extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(lQdyv, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
 /* 106 */,
 /* 107 */,
 /* 108 */,
@@ -12738,8 +11967,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(uHErL, templates);
 /* 149 */,
 /* 150 */,
 /* 151 */,
-/* 152 */,
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12769,9 +11997,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _indexSoy = __webpack_require__(101);
+var _testrayUserSoy = __webpack_require__(105);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _testrayUserSoy2 = _interopRequireDefault(_testrayUserSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12781,23 +12009,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var uHErL = function (_Component) {
-  _inherits(uHErL, _Component);
+var lQdyv = function (_Component) {
+  _inherits(lQdyv, _Component);
 
-  function uHErL() {
-    _classCallCheck(this, uHErL);
+  function lQdyv() {
+    _classCallCheck(this, lQdyv);
 
-    return _possibleConstructorReturn(this, (uHErL.__proto__ || Object.getPrototypeOf(uHErL)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (lQdyv.__proto__ || Object.getPrototypeOf(lQdyv)).apply(this, arguments));
   }
 
-  return uHErL;
+  return lQdyv;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(uHErL, _indexSoy2.default);
+_metalSoy2.default.register(lQdyv, _testrayUserSoy2.default);
 
-exports.default = uHErL;
+exports.default = lQdyv;
 
 /***/ })
-],[153]);
+],[152]);

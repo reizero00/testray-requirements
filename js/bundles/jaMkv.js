@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([7],[
+webpackJsonppageComponent([6],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11814,12 +11814,13 @@ module.exports = function(module) {
 /* 100 */,
 /* 101 */,
 /* 102 */,
-/* 103 */
+/* 103 */,
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EQkuj", function() { return EQkuj; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "jaMkv", function() { return jaMkv; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11831,15 +11832,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from testray-analyst.soy.
+// This file was automatically generated from testray-lead.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace EQkuj.
+ * @fileoverview Templates in namespace jaMkv.
  * @public
  */
 
-goog.module('EQkuj.incrementaldom');
+goog.module('jaMkv.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11871,7 +11872,7 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param266 = function() {
+  var param275 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
@@ -11880,9 +11881,9 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_open('p');
         itext('A ');
         ie_open('em');
-          itext('Testray Analyst');
+          itext('Testray Lead');
         ie_close('em');
-        itext(' will have access to all analysis tools and will be primarily responsible for analyzing results or completing tasks. A Testray Analyst may use compare to give their sign offs on a build for a release.');
+        itext(' is a user who typically leads a group of testers. They should have permissions to create user groups, create and assign tasks and create other Testray content (Builds, Runs, Results).');
       ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
@@ -11894,11 +11895,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param266}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param275}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'EQkuj.render';
+  $render.soyTemplateName = 'jaMkv.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11908,15 +11909,14 @@ return exports;
 
 });
 
-class EQkuj extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(EQkuj, templates);
+class jaMkv extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(jaMkv, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 104 */,
 /* 105 */,
 /* 106 */,
 /* 107 */,
@@ -11961,7 +11961,9 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(EQkuj, templates);
 /* 146 */,
 /* 147 */,
 /* 148 */,
-/* 149 */
+/* 149 */,
+/* 150 */,
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11991,9 +11993,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _testrayAnalystSoy = __webpack_require__(103);
+var _testrayLeadSoy = __webpack_require__(104);
 
-var _testrayAnalystSoy2 = _interopRequireDefault(_testrayAnalystSoy);
+var _testrayLeadSoy2 = _interopRequireDefault(_testrayLeadSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12003,23 +12005,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var EQkuj = function (_Component) {
-  _inherits(EQkuj, _Component);
+var jaMkv = function (_Component) {
+  _inherits(jaMkv, _Component);
 
-  function EQkuj() {
-    _classCallCheck(this, EQkuj);
+  function jaMkv() {
+    _classCallCheck(this, jaMkv);
 
-    return _possibleConstructorReturn(this, (EQkuj.__proto__ || Object.getPrototypeOf(EQkuj)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (jaMkv.__proto__ || Object.getPrototypeOf(jaMkv)).apply(this, arguments));
   }
 
-  return EQkuj;
+  return jaMkv;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(EQkuj, _testrayAnalystSoy2.default);
+_metalSoy2.default.register(jaMkv, _testrayLeadSoy2.default);
 
-exports.default = EQkuj;
+exports.default = jaMkv;
 
 /***/ })
-],[149]);
+],[151]);
