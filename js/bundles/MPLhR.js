@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([4],[
+webpackJsonppageComponent([7],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11814,15 +11814,12 @@ module.exports = function(module) {
 /* 100 */,
 /* 101 */,
 /* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GUtHl", function() { return GUtHl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MPLhR", function() { return MPLhR; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11834,15 +11831,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from 1_0.soy.
+// This file was automatically generated from testray-analyst.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace GUtHl.
+ * @fileoverview Templates in namespace MPLhR.
  * @public
  */
 
-goog.module('GUtHl.incrementaldom');
+goog.module('MPLhR.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11874,25 +11871,18 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param293 = function() {
-    ie_open('h6');
-      var dyn23 = opt_data.page.description;
-      if (typeof dyn23 == 'function') dyn23(); else if (dyn23 != null) itext(dyn23);
-    ie_close('h6');
+  var param266 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
-        itext('Overview');
+        itext('Description');
       ie_close('h2');
       ie_open('p');
         itext('A ');
         ie_open('em');
-          itext('Testray User');
+          itext('Testray Analyst');
         ie_close('em');
-        itext(' is the lowest level access user that has view only permissions. Their primary function is to be able to go through results for root cause analysis. They do not have permissions to initiate any workflows on results, create tasks, or use any of the tools.');
-      ie_close('p');
-      ie_open('p');
-        itext('Technical Support Engineers, Customer Support, and Training are example departments that would categorize as a review only group. They\'ll normally want to go in to look at upstream master or ee-7.0.x to look at the latest results or to review a pull request.');
+        itext(' will have access to all analysis tools and will be primarily responsible for analyzing results or completing tasks. A Testray Analyst may use compare to give their sign offs on a build for a release.');
       ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
@@ -11904,11 +11894,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param293}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param266}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'GUtHl.render';
+  $render.soyTemplateName = 'MPLhR.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11918,14 +11908,17 @@ return exports;
 
 });
 
-class GUtHl extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(GUtHl, templates);
+class MPLhR extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(MPLhR, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 104 */,
+/* 105 */,
+/* 106 */,
 /* 107 */,
 /* 108 */,
 /* 109 */,
@@ -11969,11 +11962,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(GUtHl, templates);
 /* 147 */,
 /* 148 */,
 /* 149 */,
-/* 150 */,
-/* 151 */,
-/* 152 */,
-/* 153 */,
-/* 154 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12003,9 +11992,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _0Soy = __webpack_require__(106);
+var _testrayAnalystSoy = __webpack_require__(103);
 
-var _0Soy2 = _interopRequireDefault(_0Soy);
+var _testrayAnalystSoy2 = _interopRequireDefault(_testrayAnalystSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12015,23 +12004,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var GUtHl = function (_Component) {
-  _inherits(GUtHl, _Component);
+var MPLhR = function (_Component) {
+  _inherits(MPLhR, _Component);
 
-  function GUtHl() {
-    _classCallCheck(this, GUtHl);
+  function MPLhR() {
+    _classCallCheck(this, MPLhR);
 
-    return _possibleConstructorReturn(this, (GUtHl.__proto__ || Object.getPrototypeOf(GUtHl)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (MPLhR.__proto__ || Object.getPrototypeOf(MPLhR)).apply(this, arguments));
   }
 
-  return GUtHl;
+  return MPLhR;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(GUtHl, _0Soy2.default);
+_metalSoy2.default.register(MPLhR, _testrayAnalystSoy2.default);
 
-exports.default = GUtHl;
+exports.default = MPLhR;
 
 /***/ })
-],[154]);
+],[150]);

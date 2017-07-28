@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([8],[
+webpackJsonppageComponent([4],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11813,12 +11813,16 @@ module.exports = function(module) {
 /* 99 */,
 /* 100 */,
 /* 101 */,
-/* 102 */
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "vDbeY", function() { return vDbeY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VGHIm", function() { return VGHIm; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11830,15 +11834,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from testray-administrator.soy.
+// This file was automatically generated from 1_0.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace vDbeY.
+ * @fileoverview Templates in namespace VGHIm.
  * @public
  */
 
-goog.module('vDbeY.incrementaldom');
+goog.module('VGHIm.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11870,98 +11874,26 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param257 = function() {
+  var param293 = function() {
+    ie_open('h6');
+      var dyn23 = opt_data.page.description;
+      if (typeof dyn23 == 'function') dyn23(); else if (dyn23 != null) itext(dyn23);
+    ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
-        itext('Description');
+        itext('Overview');
       ie_close('h2');
       ie_open('p');
         itext('A ');
         ie_open('em');
-          itext('Testray Administrators');
+          itext('Testray User');
         ie_close('em');
-        itext(' has access to all of Testray. These users are normally elevated to be able to administer other users or system configurations.');
+        itext(' is the lowest level access user that has view only permissions. Their primary function is to be able to go through results for root cause analysis. They do not have permissions to initiate any workflows on results, create tasks, or use any of the tools.');
       ie_close('p');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '2');
-      ie_open('h2');
-        itext('Example Users');
-      ie_close('h2');
       ie_open('p');
-        itext('Below are Users that we expect to be Testray Administrators');
+        itext('Technical Support Engineers, Customer Support, and Training are example departments that would categorize as a review only group. They\'ll normally want to go in to look at upstream master or ee-7.0.x to look at the latest results or to review a pull request.');
       ie_close('p');
-      ie_open('ol');
-        ie_open('li');
-          ie_open('a', null, null,
-              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_kristoffer.onias');
-            itext('Kristoffer Onias');
-          ie_close('a');
-        ie_close('li');
-        ie_open('li');
-          ie_open('a', null, null,
-              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_ethan.bustad');
-            itext('Ethan Bustad');
-          ie_close('a');
-        ie_close('li');
-      ie_close('ol');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '3');
-      ie_open('h2');
-        itext('Role Permissions');
-      ie_close('h2');
-      ie_open('table');
-        ie_open('thead');
-          ie_open('tr');
-            ie_open('th');
-              itext('Component');
-            ie_close('th');
-            ie_open('th');
-              itext('Action');
-            ie_close('th');
-            ie_open('th');
-              itext('Accesss');
-            ie_close('th');
-          ie_close('tr');
-        ie_close('thead');
-        ie_open('tbody');
-          ie_open('tr');
-            ie_open('td');
-              itext('col 3 is');
-            ie_close('td');
-            ie_open('td');
-              itext('right-aligned');
-            ie_close('td');
-            ie_open('td');
-              itext('$1600');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('col 2 is');
-            ie_close('td');
-            ie_open('td');
-              itext('centered');
-            ie_close('td');
-            ie_open('td');
-              itext('$12');
-            ie_close('td');
-          ie_close('tr');
-          ie_open('tr');
-            ie_open('td');
-              itext('zebra stripes');
-            ie_close('td');
-            ie_open('td');
-              itext('are neat');
-            ie_close('td');
-            ie_open('td');
-              itext('$1');
-            ie_close('td');
-          ie_close('tr');
-        ie_close('tbody');
-      ie_close('table');
     ie_close('article');
     ie_open('input', null, null,
         'type', 'hidden',
@@ -11972,11 +11904,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param257}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param293}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'vDbeY.render';
+  $render.soyTemplateName = 'VGHIm.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11986,18 +11918,14 @@ return exports;
 
 });
 
-class vDbeY extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(vDbeY, templates);
+class VGHIm extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(VGHIm, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
 /* 107 */,
 /* 108 */,
 /* 109 */,
@@ -12044,7 +11972,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(vDbeY, templates);
 /* 150 */,
 /* 151 */,
 /* 152 */,
-/* 153 */
+/* 153 */,
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12074,9 +12003,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _testrayAdministratorSoy = __webpack_require__(102);
+var _0Soy = __webpack_require__(106);
 
-var _testrayAdministratorSoy2 = _interopRequireDefault(_testrayAdministratorSoy);
+var _0Soy2 = _interopRequireDefault(_0Soy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12086,23 +12015,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var vDbeY = function (_Component) {
-  _inherits(vDbeY, _Component);
+var VGHIm = function (_Component) {
+  _inherits(VGHIm, _Component);
 
-  function vDbeY() {
-    _classCallCheck(this, vDbeY);
+  function VGHIm() {
+    _classCallCheck(this, VGHIm);
 
-    return _possibleConstructorReturn(this, (vDbeY.__proto__ || Object.getPrototypeOf(vDbeY)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (VGHIm.__proto__ || Object.getPrototypeOf(VGHIm)).apply(this, arguments));
   }
 
-  return vDbeY;
+  return VGHIm;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(vDbeY, _testrayAdministratorSoy2.default);
+_metalSoy2.default.register(VGHIm, _0Soy2.default);
 
-exports.default = vDbeY;
+exports.default = VGHIm;
 
 /***/ })
-],[153]);
+],[154]);
