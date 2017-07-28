@@ -127,3 +127,132 @@ The primary users that interact with Testray typically fall into the [Testray Us
 | View          |       O |       O |       O |             O |
 
 </article>
+
+<article id="9">
+
+## Case Permissions
+
+----
+
+| Action        | User    | Analyst | Lead    | Administrator |
+| ------------- | :-----: | :-----: | :-----: | :-----------: |
+| Create        |         |       O |       O |             O |
+| Edit          |         |       O |       O |             O |
+| Delete        |         |       O |       O |             O |
+| View          |       O |       O |       O |             O |
+
+</article>
+
+<article id="10">
+
+## Suite Permissions
+
+----
+
+| Action        | User    | Analyst | Lead    | Administrator |
+| ------------- | :-----: | :-----: | :-----: | :-----------: |
+| Create        |         |         |       O |             O |
+| Edit          |         |         |       O |             O |
+| Delete        |         |         |       O |             O |
+| View          |       O |       O |       O |             O |
+
+</article>
+
+<article id="11">
+
+## Routine Permissions
+
+----
+
+| Action        | User    | Analyst | Lead    | Administrator |
+| ------------- | :-----: | :-----: | :-----: | :-----------: |
+| Create        |         |         |       O |             O |
+| Edit          |         |         |       O |             O |
+| Delete        |         |         |       O |             O |
+| View          |       O |       O |       O |             O |
+
+</article>
+
+<article id="12">
+
+## Build Permissions
+
+----
+
+| Action        | User    | Analyst | Lead    | Administrator |
+| ------------- | :-----: | :-----: | :-----: | :-----------: |
+| Create        |         |         |       O |             O |
+| Edit          |         |         |       O |             O |
+| Delete        |         |         |       O |             O |
+| View          |       O |       O |       O |             O |
+
+</article>
+
+<article id="13">
+
+## Results Permissions
+
+----
+
+| Action        | User    | Analyst | Lead    | Administrator |
+| ------------- | :-----: | :-----: | :-----: | :-----------: |
+| Create        |         |         |       O |             O |
+| Edit          |         |       O |       O |             O |
+| Delete        |         |         |       O |             O |
+| View          |       O |       O |       O |             O |
+
+</article>
+
+<article id="14">
+
+## Task Permissions
+
+----
+
+| Action        | User    | Analyst | Lead    | Administrator |
+| ------------- | :-----: | :-----: | :-----: | :-----------: |
+| Create        |         |         |       O |             O |
+| Edit          |         |         |       O |             O |
+| Delete        |         |         |       O |             O |
+| View          |         |       O |       O |             O |
+
+</article>
+
+<article id="15">
+
+## Subtask Permissions
+
+----
+
+| Action        | User    | Analyst | Lead    | Administrator |
+| ------------- | :-----: | :-----: | :-----: | :-----------: |
+| Workflow      |         |       O |       O |             O |
+| View          |         |       O |       O |             O |
+
+</article>
+
+<article id="16">
+
+## Autofill Permissions
+
+----
+
+| Action        | User    | Analyst | Lead    | Administrator |
+| ------------- | :-----: | :-----: | :-----: | :-----------: |
+| Create        |         |       O |       O |             O |
+| View          |         |       O |       O |             O |
+
+</article>
+
+<article id="17">
+
+## Compare Permissions
+
+----
+
+| Action        | User    | Analyst | Lead    | Administrator |
+| ------------- | :-----: | :-----: | :-----: | :-----------: |
+| Create        |         |       O |       O |             O |
+| View          |       O |       O |       O |             O |
+
+</article>
