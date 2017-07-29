@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([3],[
+webpackJsonppageComponent([7],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11814,16 +11814,12 @@ module.exports = function(module) {
 /* 100 */,
 /* 101 */,
 /* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "rePQy", function() { return rePQy; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "iCZSN", function() { return iCZSN; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11835,15 +11831,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from testray-analyst.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace rePQy.
+ * @fileoverview Templates in namespace iCZSN.
  * @public
  */
 
-goog.module('rePQy.incrementaldom');
+goog.module('iCZSN.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11864,8 +11860,6 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
-var $templateAlias2 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('ElectricCode.incrementaldom', 'render');
-
 var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('guide.incrementaldom', 'render');
 
 
@@ -11877,28 +11871,18 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param304 = function() {
-    ie_open('h6');
-      var dyn24 = opt_data.page.description;
-      if (typeof dyn24 == 'function') dyn24(); else if (dyn24 != null) itext(dyn24);
-    ie_close('h6');
+  var param266 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
-        itext('Lorem ipsum dolor sit amet');
+        itext('Description');
       ie_close('h2');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      $templateAlias2({code: 'console.info(\'Hola Mundo\');', mode: 'javascript'}, null, opt_ijData);
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        itext('A ');
+        ie_open('em');
+          itext('Testray Analyst');
+        ie_close('em');
+        itext(' will have access to all analysis tools and will be primarily responsible for analyzing results or completing tasks. A Testray Analyst may use compare to give their sign offs on a build for a release.');
       ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
@@ -11910,11 +11894,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param304}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param266}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'rePQy.render';
+  $render.soyTemplateName = 'iCZSN.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11924,14 +11908,18 @@ return exports;
 
 });
 
-class rePQy extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(rePQy, templates);
+class iCZSN extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(iCZSN, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
 /* 108 */,
 /* 109 */,
 /* 110 */,
@@ -11975,11 +11963,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(rePQy, templates);
 /* 148 */,
 /* 149 */,
 /* 150 */,
-/* 151 */,
-/* 152 */,
-/* 153 */,
-/* 154 */,
-/* 155 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12009,9 +11993,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _indexSoy = __webpack_require__(107);
+var _testrayAnalystSoy = __webpack_require__(103);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _testrayAnalystSoy2 = _interopRequireDefault(_testrayAnalystSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12021,23 +12005,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var rePQy = function (_Component) {
-  _inherits(rePQy, _Component);
+var iCZSN = function (_Component) {
+  _inherits(iCZSN, _Component);
 
-  function rePQy() {
-    _classCallCheck(this, rePQy);
+  function iCZSN() {
+    _classCallCheck(this, iCZSN);
 
-    return _possibleConstructorReturn(this, (rePQy.__proto__ || Object.getPrototypeOf(rePQy)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (iCZSN.__proto__ || Object.getPrototypeOf(iCZSN)).apply(this, arguments));
   }
 
-  return rePQy;
+  return iCZSN;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(rePQy, _indexSoy2.default);
+_metalSoy2.default.register(iCZSN, _testrayAnalystSoy2.default);
 
-exports.default = rePQy;
+exports.default = iCZSN;
 
 /***/ })
-],[155]);
+],[151]);

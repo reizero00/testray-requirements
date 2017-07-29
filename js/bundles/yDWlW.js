@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([6],[
+webpackJsonppageComponent([5],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11815,12 +11815,13 @@ module.exports = function(module) {
 /* 101 */,
 /* 102 */,
 /* 103 */,
-/* 104 */
+/* 104 */,
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SBOJl", function() { return SBOJl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "yDWlW", function() { return yDWlW; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11832,15 +11833,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from testray-lead.soy.
+// This file was automatically generated from testray-user.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace SBOJl.
+ * @fileoverview Templates in namespace yDWlW.
  * @public
  */
 
-goog.module('SBOJl.incrementaldom');
+goog.module('yDWlW.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11872,7 +11873,7 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param275 = function() {
+  var param284 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
@@ -11881,9 +11882,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_open('p');
         itext('A ');
         ie_open('em');
-          itext('Testray Lead');
+          itext('Testray User');
         ie_close('em');
-        itext(' is a user who typically leads a group of testers. They should have permissions to create user groups, create and assign tasks and create other Testray content (Builds, Runs, Results).');
+        itext(' is the lowest level access user that has view only permissions. Their primary function is to be able to go through results for root cause analysis. They do not have permissions to initiate any workflows on results, create tasks, or use any of the tools.');
+      ie_close('p');
+      ie_open('p');
+        itext('Technical Support Engineers, Customer Support, and Training are example departments that would categorize as a review only group. They\'ll normally want to go in to look at upstream master or ee-7.0.x to look at the latest results or to review a pull request.');
       ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
@@ -11895,11 +11899,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param275}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param284}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'SBOJl.render';
+  $render.soyTemplateName = 'yDWlW.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11909,15 +11913,14 @@ return exports;
 
 });
 
-class SBOJl extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(SBOJl, templates);
+class yDWlW extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(yDWlW, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 105 */,
 /* 106 */,
 /* 107 */,
 /* 108 */,
@@ -11963,7 +11966,9 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(SBOJl, templates);
 /* 148 */,
 /* 149 */,
 /* 150 */,
-/* 151 */
+/* 151 */,
+/* 152 */,
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11993,9 +11998,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _testrayLeadSoy = __webpack_require__(104);
+var _testrayUserSoy = __webpack_require__(105);
 
-var _testrayLeadSoy2 = _interopRequireDefault(_testrayLeadSoy);
+var _testrayUserSoy2 = _interopRequireDefault(_testrayUserSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12005,23 +12010,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var SBOJl = function (_Component) {
-  _inherits(SBOJl, _Component);
+var yDWlW = function (_Component) {
+  _inherits(yDWlW, _Component);
 
-  function SBOJl() {
-    _classCallCheck(this, SBOJl);
+  function yDWlW() {
+    _classCallCheck(this, yDWlW);
 
-    return _possibleConstructorReturn(this, (SBOJl.__proto__ || Object.getPrototypeOf(SBOJl)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (yDWlW.__proto__ || Object.getPrototypeOf(yDWlW)).apply(this, arguments));
   }
 
-  return SBOJl;
+  return yDWlW;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(SBOJl, _testrayLeadSoy2.default);
+_metalSoy2.default.register(yDWlW, _testrayUserSoy2.default);
 
-exports.default = SBOJl;
+exports.default = yDWlW;
 
 /***/ })
-],[151]);
+],[153]);
