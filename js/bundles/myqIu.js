@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([11],[
+webpackJsonppageComponent([6],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11810,12 +11810,17 @@ module.exports = function(module) {
 /* 96 */,
 /* 97 */,
 /* 98 */,
-/* 99 */
+/* 99 */,
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PyIBf", function() { return PyIBf; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "myqIu", function() { return myqIu; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11827,15 +11832,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from testray-lead.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace PyIBf.
+ * @fileoverview Templates in namespace myqIu.
  * @public
  */
 
-goog.module('PyIBf.incrementaldom');
+goog.module('myqIu.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11856,8 +11861,6 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
-var $templateAlias2 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('ElectricCode.incrementaldom', 'render');
-
 var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('guide.incrementaldom', 'render');
 
 
@@ -11869,65 +11872,401 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param230 = function() {
-    ie_open('h6');
-      var dyn21 = opt_data.page.description;
-      if (typeof dyn21 == 'function') dyn21(); else if (dyn21 != null) itext(dyn21);
-    ie_close('h6');
+  var param275 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
-        itext('Lorem ipsum dolor sit amet');
+        itext('Description');
       ie_close('h2');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        itext('A ');
+        ie_open('em');
+          itext('Testray Lead');
+        ie_close('em');
+        itext(' is a user who typically leads a group of Testray Analysts. They should have permissions to create user groups, create and assign tasks and create other Testray content (Builds, Runs, Results). Some Testray Leads will do some analysis with the team and some may only need to assign and track tasks.');
       ie_close('p');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      $templateAlias2({code: 'console.info(\'Hola Mundo\');', mode: 'javascript'}, null, opt_ijData);
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        itext('Testray Leads will need permissions necessary for designing a test plan or a task for anlysis. This is why the Testray Lead has permissions on options and product versions. The Testray Lead is restricted from being able to add more high level content like Projects, Case Types and Categories.');
       ie_close('p');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        itext('Testray Leads will require permissions to create and manage user groups since it\'s closely tied to task management.');
       ie_close('p');
     ie_close('article');
     ie_open('article', null, null,
         'id', '2');
       ie_open('h2');
-        itext('Lorem ipsum dolor sit amet');
+        itext('Example Users');
       ie_close('h2');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        itext('Below are Users that we expect to be Testray Leads');
       ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
+      ie_open('ol');
+        ie_open('li');
+          ie_open('a', null, null,
+              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_jason.pince');
+            itext('Jason Pince');
+          ie_close('a');
+          itext(' - Portal QA Lead in Diamond Bar');
+        ie_close('li');
+        ie_open('li');
+          ie_open('a', null, null,
+              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_austin.chiang');
+            itext('Austin Chiang');
+          ie_close('a');
+          itext(' - Associate Test Engineer who is currently the primary person who creates the Weekly Analysis task for the Portal QA Team');
+        ie_close('li');
+      ie_close('ol');
     ie_close('article');
     ie_open('article', null, null,
         'id', '3');
       ie_open('h2');
-        itext('Lorem ipsum dolor sit amet');
+        itext('Role Permissions');
       ie_close('h2');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
+      ie_open('table');
+        ie_open('thead');
+          ie_open('tr');
+            ie_open('th');
+              itext('Resource');
+            ie_close('th');
+            ie_open('th', null, null,
+                'style', 'text-align:center');
+              itext('Create');
+            ie_close('th');
+            ie_open('th', null, null,
+                'style', 'text-align:center');
+              itext('Edit');
+            ie_close('th');
+            ie_open('th', null, null,
+                'style', 'text-align:center');
+              itext('Delete');
+            ie_close('th');
+            ie_open('th', null, null,
+                'style', 'text-align:center');
+              itext('View');
+            ie_close('th');
+          ie_close('tr');
+        ie_close('thead');
+        ie_open('tbody');
+          ie_open('tr');
+            ie_open('td');
+              itext('Projects');
+            ie_close('td');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Case Types');
+            ie_close('td');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Categories');
+            ie_close('td');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Options');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Product Versions');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Teams');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Components');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Cases');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Suites');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Routines');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Builds');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Results');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Tasks');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Subtasks');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Autofill');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Compare');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+        ie_close('tbody');
+      ie_close('table');
     ie_close('article');
     ie_open('input', null, null,
         'type', 'hidden',
@@ -11938,11 +12277,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param230}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param275}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'PyIBf.render';
+  $render.soyTemplateName = 'myqIu.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11952,19 +12291,14 @@ return exports;
 
 });
 
-class PyIBf extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(PyIBf, templates);
+class myqIu extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(myqIu, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
 /* 105 */,
 /* 106 */,
 /* 107 */,
@@ -12006,7 +12340,13 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(PyIBf, templates);
 /* 143 */,
 /* 144 */,
 /* 145 */,
-/* 146 */
+/* 146 */,
+/* 147 */,
+/* 148 */,
+/* 149 */,
+/* 150 */,
+/* 151 */,
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12036,9 +12376,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _indexSoy = __webpack_require__(99);
+var _testrayLeadSoy = __webpack_require__(104);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _testrayLeadSoy2 = _interopRequireDefault(_testrayLeadSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12048,23 +12388,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var PyIBf = function (_Component) {
-  _inherits(PyIBf, _Component);
+var myqIu = function (_Component) {
+  _inherits(myqIu, _Component);
 
-  function PyIBf() {
-    _classCallCheck(this, PyIBf);
+  function myqIu() {
+    _classCallCheck(this, myqIu);
 
-    return _possibleConstructorReturn(this, (PyIBf.__proto__ || Object.getPrototypeOf(PyIBf)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (myqIu.__proto__ || Object.getPrototypeOf(myqIu)).apply(this, arguments));
   }
 
-  return PyIBf;
+  return myqIu;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(PyIBf, _indexSoy2.default);
+_metalSoy2.default.register(myqIu, _testrayLeadSoy2.default);
 
-exports.default = PyIBf;
+exports.default = myqIu;
 
 /***/ })
-],[146]);
+],[152]);
