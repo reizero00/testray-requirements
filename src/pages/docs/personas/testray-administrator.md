@@ -11,7 +11,7 @@ weight: 2
 
 A *Testray Administrators* has access to all of Testray. These users are normally elevated to be able to administer other users or system configurations.
 
-The Testray Administrator will perform all of the initial configurations, such as configuring and populating a Project and populating options for factors.
+The Testray Administrator will perform all of the initial configurations, such as configuring and populating a Project and populating options for factors. Other administration include User and User Group management, roles and permissioning and managing the higher level functions of Testray.
 
 In many cases, the administrator wont engage in any of the analysis tasks. This would be left to the [Testray Analyst](/docs/personas/testray-analyst.html), and [Testray Lead](/docs/personas/testray-lead.html).
 
