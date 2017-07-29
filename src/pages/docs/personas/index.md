@@ -76,9 +76,9 @@ The primary users that interact with Testray typically fall into the [Testray Us
 
 | Action        | User    | Analyst | Lead    | Administrator |
 | ------------- | :-----: | :-----: | :-----: | :-----------: |
-| Create        |         |         |         |             O |
-| Edit          |         |         |         |             O |
-| Delete        |         |         |         |             O |
+| Create        |         |         |       O |             O |
+| Edit          |         |         |       O |             O |
+| Delete        |         |         |       O |             O |
 | View          |       O |       O |       O |             O |
 
 </article>
