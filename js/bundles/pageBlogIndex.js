@@ -11961,8 +11961,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageBlogIndex, templa
 /* 141 */,
 /* 142 */,
 /* 143 */,
-/* 144 */,
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12023,4 +12022,4 @@ _metalSoy2.default.register(pageBlogIndex, _indexSoy2.default);
 exports.default = pageBlogIndex;
 
 /***/ })
-],[145]);
+],[144]);
