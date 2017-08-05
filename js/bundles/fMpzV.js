@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([8],[
+webpackJsonppageComponent([5],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11813,12 +11813,15 @@ module.exports = function(module) {
 /* 99 */,
 /* 100 */,
 /* 101 */,
-/* 102 */
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cBJoD", function() { return cBJoD; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fMpzV", function() { return fMpzV; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11830,15 +11833,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from testray-administrator.soy.
+// This file was automatically generated from testray-user.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace cBJoD.
+ * @fileoverview Templates in namespace fMpzV.
  * @public
  */
 
-goog.module('cBJoD.incrementaldom');
+goog.module('fMpzV.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11870,7 +11873,7 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param257 = function() {
+  var param284 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
@@ -11879,25 +11882,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_open('p');
         itext('A ');
         ie_open('em');
-          itext('Testray Administrators');
+          itext('Testray User');
         ie_close('em');
-        itext(' has access to all of Testray. These users are normally elevated to be able to administer other users or system configurations.');
+        itext(' is the lowest level access user that has view only permissions. Their primary function is to be able to go through results for root cause analysis. They do not have permissions to initiate any workflows on results, create tasks, or use any of the tools.');
       ie_close('p');
       ie_open('p');
-        itext('The Testray Administrator will perform all of the initial configurations, such as configuring and populating a Project and populating options for factors. Other administration include User and User Group management, roles and permissioning and managing the higher level functions of Testray.');
-      ie_close('p');
-      ie_open('p');
-        itext('In many cases, the administrator wont engage in any of the analysis tasks. This would be left to the ');
-        ie_open('a', null, null,
-            'href', '/docs/personas/testray-analyst.html');
-          itext('Testray Analyst');
-        ie_close('a');
-        itext(', and ');
-        ie_open('a', null, null,
-            'href', '/docs/personas/testray-lead.html');
-          itext('Testray Lead');
-        ie_close('a');
-        itext('.');
+        itext('Technical Support Engineers, Customer Support, and Training are example departments that would categorize as a review only group. They\'ll normally want to go in to look at upstream master or ee-7.0.x to look at the latest results or to review a pull request.');
       ie_close('p');
     ie_close('article');
     ie_open('article', null, null,
@@ -11906,22 +11896,22 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         itext('Example Users');
       ie_close('h2');
       ie_open('p');
-        itext('Below are Users that we expect to be Testray Administrators');
+        itext('Below are Users that we expect to be Testray Users');
       ie_close('p');
       ie_open('ol');
         ie_open('li');
           ie_open('a', null, null,
-              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_kristoffer.onias');
-            itext('Kristoffer Onias');
+              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_bryan.ho');
+            itext('Bryan Ho');
           ie_close('a');
-          itext(' - Primary administrator for the Global QA team and Product Manager');
+          itext(' - Associate Design Manager');
         ie_close('li');
         ie_open('li');
           ie_open('a', null, null,
-              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_ethan.bustad');
-            itext('Ethan Bustad');
+              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_ryan.park');
+            itext('Ryan Park');
           ie_close('a');
-          itext(' - Lead developer on the IS Team for Testray');
+          itext(' - Program Manager');
         ie_close('li');
       ie_close('ol');
     ie_close('article');
@@ -11959,18 +11949,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Projects');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -11980,18 +11964,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Case Types');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12001,18 +11979,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Categories');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12022,18 +11994,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Options');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12043,18 +12009,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Product Versions');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12064,18 +12024,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Teams');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12085,18 +12039,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Components');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12106,18 +12054,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Cases');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12127,18 +12069,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Suites');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12148,18 +12084,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Routines');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12169,18 +12099,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Builds');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12190,18 +12114,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Results');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12211,18 +12129,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Tasks');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12232,18 +12144,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Subtasks');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12253,18 +12159,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Autofill');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12274,18 +12174,12 @@ function $render(opt_data, opt_ignored, opt_ijData) {
             ie_open('td');
               itext('Compare');
             ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
-            ie_open('td', null, null,
+            ie_void('td', null, null,
                 'style', 'text-align:center');
-              itext('O');
-            ie_close('td');
             ie_open('td', null, null,
                 'style', 'text-align:center');
               itext('O');
@@ -12303,11 +12197,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param257}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param284}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'cBJoD.render';
+  $render.soyTemplateName = 'fMpzV.render';
 }
 
 exports.render.params = ["page","site"];
@@ -12317,17 +12211,14 @@ return exports;
 
 });
 
-class cBJoD extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(cBJoD, templates);
+class fMpzV extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(fMpzV, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 103 */,
-/* 104 */,
-/* 105 */,
 /* 106 */,
 /* 107 */,
 /* 108 */,
@@ -12374,7 +12265,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(cBJoD, templates);
 /* 149 */,
 /* 150 */,
 /* 151 */,
-/* 152 */
+/* 152 */,
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12404,9 +12296,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _testrayAdministratorSoy = __webpack_require__(102);
+var _testrayUserSoy = __webpack_require__(105);
 
-var _testrayAdministratorSoy2 = _interopRequireDefault(_testrayAdministratorSoy);
+var _testrayUserSoy2 = _interopRequireDefault(_testrayUserSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12416,23 +12308,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var cBJoD = function (_Component) {
-  _inherits(cBJoD, _Component);
+var fMpzV = function (_Component) {
+  _inherits(fMpzV, _Component);
 
-  function cBJoD() {
-    _classCallCheck(this, cBJoD);
+  function fMpzV() {
+    _classCallCheck(this, fMpzV);
 
-    return _possibleConstructorReturn(this, (cBJoD.__proto__ || Object.getPrototypeOf(cBJoD)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (fMpzV.__proto__ || Object.getPrototypeOf(fMpzV)).apply(this, arguments));
   }
 
-  return cBJoD;
+  return fMpzV;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(cBJoD, _testrayAdministratorSoy2.default);
+_metalSoy2.default.register(fMpzV, _testrayUserSoy2.default);
 
-exports.default = cBJoD;
+exports.default = fMpzV;
 
 /***/ })
-],[152]);
+],[153]);

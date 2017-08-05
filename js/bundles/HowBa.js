@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([4],[
+webpackJsonppageComponent([6],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11815,14 +11815,12 @@ module.exports = function(module) {
 /* 101 */,
 /* 102 */,
 /* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "lYkmL", function() { return lYkmL; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HowBa", function() { return HowBa; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11834,15 +11832,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from 1_0.soy.
+// This file was automatically generated from testray-lead.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace lYkmL.
+ * @fileoverview Templates in namespace HowBa.
  * @public
  */
 
-goog.module('lYkmL.incrementaldom');
+goog.module('HowBa.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11874,70 +11872,401 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param293 = function() {
-    ie_open('h6');
-      var dyn23 = opt_data.page.description;
-      if (typeof dyn23 == 'function') dyn23(); else if (dyn23 != null) itext(dyn23);
-    ie_close('h6');
+  var param275 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
-        itext('Overview');
+        itext('Description');
       ie_close('h2');
       ie_open('p');
-        itext('The initial release of Testray is a tricky one mostly because it will be a balance between features that we need to productize and features that Liferay can heavily benefit from. The focus will be to limit the amount of new features that get into the product, finishing the features that were started and treating features that don\'t fit the productization vision as extensions. Testray should feel modern and should simplify the test management.');
+        itext('A ');
+        ie_open('em');
+          itext('Testray Lead');
+        ie_close('em');
+        itext(' is a user who typically leads a group of Testray Analysts. They should have permissions to create user groups, create and assign tasks and create other Testray content (Builds, Runs, Results). Some Testray Leads will do some analysis with the team and some may only need to assign and track tasks.');
+      ie_close('p');
+      ie_open('p');
+        itext('Testray Leads will need permissions necessary for designing a test plan or a task for anlysis. This is why the Testray Lead has permissions on options and product versions. The Testray Lead is restricted from being able to add more high level content like Projects, Case Types and Categories.');
+      ie_close('p');
+      ie_open('p');
+        itext('Testray Leads will require permissions to create and manage user groups since it\'s closely tied to task management.');
       ie_close('p');
     ie_close('article');
     ie_open('article', null, null,
         'id', '2');
       ie_open('h2');
-        itext('Feature Umbrellas');
+        itext('Example Users');
       ie_close('h2');
-      ie_open('h4');
-        itext('Core Essentials');
-      ie_close('h4');
       ie_open('p');
-        itext('Core essentials focus on Test Management core functionality. Here we need to provide users with the ability to design their project with the standard metadata used in software testing. We want to provide them with the ability to design builds easily with suites and templates so planners use lest time designing and more time doing things that matter more.');
+        itext('Below are Users that we expect to be Testray Leads');
       ie_close('p');
       ie_open('ol');
         ie_open('li');
-          itext('Test Planning 1.1. Users should be able to plan test sessions to test their products for releases 1.1. Users should be able to use Testray to determine root cause analysis');
+          ie_open('a', null, null,
+              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_jason.pince');
+            itext('Jason Pince');
+          ie_close('a');
+          itext(' - Portal QA Lead in Diamond Bar');
         ie_close('li');
         ie_open('li');
-          itext('Basic Metrics 1.1. Users should be able to see the health of their product with rolled up graphs');
+          ie_open('a', null, null,
+              'href', 'https://loop.liferay.com/web/guest/home/-/loop/people/_austin.chiang');
+            itext('Austin Chiang');
+          ie_close('a');
+          itext(' - Associate Test Engineer who is currently the primary person who creates the Weekly Analysis task for the Portal QA Team');
         ie_close('li');
       ie_close('ol');
-      ie_open('h4');
-        itext('Integrations');
-      ie_close('h4');
-      ie_open('p');
-        itext('Integrations are important for bringing together different contexts that synergize with the test management product. Bug reporting systems are going to be one the most important integrations so users can link and report bugs that they find during testing. Knowing what your test did is important in root cause analysis, so we wanted to highlight Cucumber integration as a strong point in Testray. Many other products have limited support for cucumber where only the results themselves get into the system. Test should take it further and allow the Cucumber results to import the feature files as Case information.');
-      ie_close('p');
-      ie_open('ol');
-        ie_open('li');
-          itext('JIRA 1.1. Integration should be easy 1.1. Users should be able to report issues within Testray and have it synced up with JIRA 1.1. JIRA integration should allow users to have the JIRA context within Testray');
-        ie_close('li');
-        ie_open('li');
-          itext('Cucumber 1.1. Integration should be easy 1.1. Users should be able to see Cucumber test results within Testray');
-        ie_close('li');
-      ie_close('ol');
-      ie_open('h4');
-        itext('Tools');
-      ie_close('h4');
-      ie_open('p');
-        itext('There are two main tools that we want to highlight as game changing features and thats Autofill and TestFlow. Compare is another feature we\'ll be including in 1.0. These features will be advertized as a huge productivity boost in the form of our own user journey.');
-      ie_close('p');
-      ie_open('ol');
-        ie_open('li');
-          itext('Autofiller');
-        ie_close('li');
-        ie_open('li');
-          itext('Compare');
-        ie_close('li');
-        ie_open('li');
-          itext('TestFlow');
-        ie_close('li');
-      ie_close('ol');
+    ie_close('article');
+    ie_open('article', null, null,
+        'id', '3');
+      ie_open('h2');
+        itext('Role Permissions');
+      ie_close('h2');
+      ie_open('table');
+        ie_open('thead');
+          ie_open('tr');
+            ie_open('th');
+              itext('Resource');
+            ie_close('th');
+            ie_open('th', null, null,
+                'style', 'text-align:center');
+              itext('Create');
+            ie_close('th');
+            ie_open('th', null, null,
+                'style', 'text-align:center');
+              itext('Edit');
+            ie_close('th');
+            ie_open('th', null, null,
+                'style', 'text-align:center');
+              itext('Delete');
+            ie_close('th');
+            ie_open('th', null, null,
+                'style', 'text-align:center');
+              itext('View');
+            ie_close('th');
+          ie_close('tr');
+        ie_close('thead');
+        ie_open('tbody');
+          ie_open('tr');
+            ie_open('td');
+              itext('Projects');
+            ie_close('td');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Case Types');
+            ie_close('td');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Categories');
+            ie_close('td');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_void('td', null, null,
+                'style', 'text-align:center');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Options');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Product Versions');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Teams');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Components');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Cases');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Suites');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Routines');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Builds');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Results');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Tasks');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Subtasks');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Autofill');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+          ie_open('tr');
+            ie_open('td');
+              itext('Compare');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+            ie_open('td', null, null,
+                'style', 'text-align:center');
+              itext('O');
+            ie_close('td');
+          ie_close('tr');
+        ie_close('tbody');
+      ie_close('table');
     ie_close('article');
     ie_open('input', null, null,
         'type', 'hidden',
@@ -11948,11 +12277,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param293}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param275}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'lYkmL.render';
+  $render.soyTemplateName = 'HowBa.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11962,14 +12291,16 @@ return exports;
 
 });
 
-class lYkmL extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(lYkmL, templates);
+class HowBa extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(HowBa, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 105 */,
+/* 106 */,
 /* 107 */,
 /* 108 */,
 /* 109 */,
@@ -12012,13 +12343,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(lYkmL, templates);
 /* 146 */,
 /* 147 */,
 /* 148 */,
-/* 149 */,
-/* 150 */,
-/* 151 */,
-/* 152 */,
-/* 153 */,
-/* 154 */,
-/* 155 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12048,9 +12373,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _0Soy = __webpack_require__(106);
+var _testrayLeadSoy = __webpack_require__(104);
 
-var _0Soy2 = _interopRequireDefault(_0Soy);
+var _testrayLeadSoy2 = _interopRequireDefault(_testrayLeadSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12060,23 +12385,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var lYkmL = function (_Component) {
-  _inherits(lYkmL, _Component);
+var HowBa = function (_Component) {
+  _inherits(HowBa, _Component);
 
-  function lYkmL() {
-    _classCallCheck(this, lYkmL);
+  function HowBa() {
+    _classCallCheck(this, HowBa);
 
-    return _possibleConstructorReturn(this, (lYkmL.__proto__ || Object.getPrototypeOf(lYkmL)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (HowBa.__proto__ || Object.getPrototypeOf(HowBa)).apply(this, arguments));
   }
 
-  return lYkmL;
+  return HowBa;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(lYkmL, _0Soy2.default);
+_metalSoy2.default.register(HowBa, _testrayLeadSoy2.default);
 
-exports.default = lYkmL;
+exports.default = HowBa;
 
 /***/ })
-],[155]);
+],[149]);

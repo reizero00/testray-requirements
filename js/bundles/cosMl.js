@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([11],[
+webpackJsonppageComponent([4],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11810,12 +11810,19 @@ module.exports = function(module) {
 /* 96 */,
 /* 97 */,
 /* 98 */,
-/* 99 */
+/* 99 */,
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WRfEu", function() { return WRfEu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cosMl", function() { return cosMl; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11827,15 +11834,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from 1_0.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace WRfEu.
+ * @fileoverview Templates in namespace cosMl.
  * @public
  */
 
-goog.module('WRfEu.incrementaldom');
+goog.module('cosMl.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11856,8 +11863,6 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
-var $templateAlias2 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('ElectricCode.incrementaldom', 'render');
-
 var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('guide.incrementaldom', 'render');
 
 
@@ -11869,64 +11874,105 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param230 = function() {
-    ie_open('h6');
-      var dyn21 = opt_data.page.description;
-      if (typeof dyn21 == 'function') dyn21(); else if (dyn21 != null) itext(dyn21);
-    ie_close('h6');
+  var param293 = function() {
     ie_open('article', null, null,
         'id', '1');
       ie_open('h2');
-        itext('Lorem ipsum dolor sit amet');
+        itext('Overview');
       ie_close('h2');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      $templateAlias2({code: 'console.info(\'Hola Mundo\');', mode: 'javascript'}, null, opt_ijData);
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        itext('The initial release of Testray is a tricky one mostly because it will be a balance between features that we need to productize and features that Liferay can heavily benefit from. The focus will be to limit the amount of new features that get into the product, finishing the features that were started and treating features that don\'t fit the productization vision as extensions. Testray should feel modern and should simplify the test management.');
       ie_close('p');
     ie_close('article');
     ie_open('article', null, null,
         'id', '2');
       ie_open('h2');
-        itext('Lorem ipsum dolor sit amet');
+        itext('Feature Umbrellas');
       ie_close('h2');
+      ie_open('h4');
+        itext('Core Essentials');
+      ie_close('h4');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        itext('Core essentials focus on Test Management core functionality. Here we need to provide users with the ability to design their project with the standard metadata used in software testing. We want to provide them with the ability to design builds easily with suites and templates so planners use lest time designing and more time doing things that matter more.');
       ie_close('p');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        ie_open('em');
+          itext('Test Planning');
+        ie_close('em');
+      ie_close('p');
+      ie_open('ol');
+        ie_open('li');
+          itext('Users should be able to plan test sessions to test their products for releases');
+        ie_close('li');
+        ie_open('li');
+          itext('Users should be able to use Testray to determine root cause analysis');
+        ie_close('li');
+      ie_close('ol');
+      ie_open('p');
+        ie_open('em');
+          itext('Basic Metrics');
+        ie_close('em');
+      ie_close('p');
+      ie_open('ol');
+        ie_open('li');
+          itext('Users should be able to see the health of their product with rolled up graphs');
+        ie_close('li');
+      ie_close('ol');
+      ie_open('h4');
+        itext('Integrations');
+      ie_close('h4');
+      ie_open('p');
+        itext('Integrations are important for bringing together different contexts that synergize with the test management product. Bug reporting systems are going to be one the most important integrations so users can link and report bugs that they find during testing. Knowing what your test did is important in root cause analysis, so we wanted to highlight Cucumber integration as a strong point in Testray. Many other products have limited support for cucumber where only the results themselves get into the system. Test should take it further and allow the Cucumber results to import the feature files as Case information.');
       ie_close('p');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        ie_open('em');
+          itext('JIRA');
+        ie_close('em');
+      ie_close('p');
+      ie_open('ol');
+        ie_open('li');
+          itext('Integration should be easy');
+        ie_close('li');
+        ie_open('li');
+          itext('Users should be able to report issues within Testray and have it synced up with JIRA');
+        ie_close('li');
+        ie_open('li');
+          itext('JIRA integration should allow users to have the JIRA context within Testray');
+        ie_close('li');
+      ie_close('ol');
+      ie_open('p');
+        ie_open('em');
+          itext('Cucumber');
+        ie_close('em');
+      ie_close('p');
+      ie_open('ol');
+        ie_open('li');
+          itext('Integration should be easy');
+        ie_close('li');
+        ie_open('li');
+          itext('Users should be able to see Cucumber test results within Testray');
+        ie_close('li');
+      ie_close('ol');
+      ie_open('h4');
+        itext('Tools');
+      ie_close('h4');
+      ie_open('p');
+        itext('There are two main tools that we want to highlight as game changing features and thats Autofill and TestFlow. Compare is another feature we\'ll be including in 1.0. These features will be advertized as a huge productivity boost in the form of our own user journey.');
       ie_close('p');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-    ie_close('article');
-    ie_open('article', null, null,
-        'id', '3');
-      ie_open('h2');
-        itext('Lorem ipsum dolor sit amet');
-      ie_close('h2');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        ie_open('em');
+          itext('Autofiller');
+        ie_close('em');
       ie_close('p');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        ie_open('em');
+          itext('Compare');
+        ie_close('em');
       ie_close('p');
       ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
-      ie_close('p');
-      ie_open('p');
-        itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
+        ie_open('em');
+          itext('TestFlow');
+        ie_close('em');
       ie_close('p');
     ie_close('article');
     ie_open('input', null, null,
@@ -11938,11 +11984,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param230}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param293}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'WRfEu.render';
+  $render.soyTemplateName = 'cosMl.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11952,21 +11998,14 @@ return exports;
 
 });
 
-class WRfEu extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(WRfEu, templates);
+class cosMl extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(cosMl, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
 /* 107 */,
 /* 108 */,
 /* 109 */,
@@ -12006,7 +12045,15 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(WRfEu, templates);
 /* 143 */,
 /* 144 */,
 /* 145 */,
-/* 146 */
+/* 146 */,
+/* 147 */,
+/* 148 */,
+/* 149 */,
+/* 150 */,
+/* 151 */,
+/* 152 */,
+/* 153 */,
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12036,9 +12083,9 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _indexSoy = __webpack_require__(99);
+var _0Soy = __webpack_require__(106);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _0Soy2 = _interopRequireDefault(_0Soy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12048,23 +12095,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var WRfEu = function (_Component) {
-  _inherits(WRfEu, _Component);
+var cosMl = function (_Component) {
+  _inherits(cosMl, _Component);
 
-  function WRfEu() {
-    _classCallCheck(this, WRfEu);
+  function cosMl() {
+    _classCallCheck(this, cosMl);
 
-    return _possibleConstructorReturn(this, (WRfEu.__proto__ || Object.getPrototypeOf(WRfEu)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (cosMl.__proto__ || Object.getPrototypeOf(cosMl)).apply(this, arguments));
   }
 
-  return WRfEu;
+  return cosMl;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(WRfEu, _indexSoy2.default);
+_metalSoy2.default.register(cosMl, _0Soy2.default);
 
-exports.default = WRfEu;
+exports.default = cosMl;
 
 /***/ })
-],[146]);
+],[154]);
